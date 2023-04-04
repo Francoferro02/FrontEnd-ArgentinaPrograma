@@ -1,0 +1,86 @@
+.row{
+    padding: 40px;
+}
+div{
+    background-color: #161614;
+    color: aliceblue;
+}
+/*etiqueta nombre*/
+@media (min-width : 576px){
+    #Nombre{
+        font-weight: bold;
+        margin-top: 85%;
+        margin-left: -20px;
+    }
+}
+@media (max-width :575px){
+    #Nombre{
+        font-weight: bold;
+        margin-top: 200px;
+        margin-left: 38%;
+    }
+}
+/*Etiqueta de estudios*/
+@media(min-width : 576px){
+    #Estudio{
+        font-weight: bold;
+        margin-top: -3%;
+        margin-left: -27px;
+    }
+}
+@media (max-width :575px){
+    #Estudio{
+        font-weight: bold;
+        margin-top: -2%;
+        margin-left: 36.5%;
+    }
+}
+/*Etiqueta de AcercaDeMi*/
+@media (min-width : 576px){
+    #AcercadeMi{
+        margin-top: -7%;
+        margin-left: 30%;
+        text-decoration: underline; 
+    }
+}
+@media (max-width :575px){
+    #AcercadeMi{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+} 
+/*Etiqueta de historia*/
+@media(max-width:575px){
+    #Historia{
+        text-align: justify;
+        font-size: x-large;
+      }
+}
+@media(min-width:576px){
+    #Historia{
+        text-align: justify;
+        font-size: x-large;
+        margin-right: -400px;
+      }
+}
+
+/*Foto de perfil*/
+ @media (min-width : 576px){
+    #FotoPerfil{
+        position: absolute;
+        width: 10%;
+        border-style:double;
+        left: 280px;
+        top: 660px;
+    }
+}
+    @media (max-width: 575px){
+        #FotoPerfil{
+            position: absolute;
+             width: 30%; 
+             border-style:double;
+             left: 35%;
+             top: 890px;
+        }
+    }
+

@@ -1,0 +1,16 @@
+button {
+    background-color: black;
+    font-weight: semibold;
+    color: aliceblue;;
+    font-size: 1rem;
+    padding: 1rem 1.5rem; 
+    border: 2px solid #222020; 
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  button:active {
+    box-shadow: inset .2rem .2rem 1rem #222020
+      , inset -.2rem -.2rem 1rem #444
+  }
+
