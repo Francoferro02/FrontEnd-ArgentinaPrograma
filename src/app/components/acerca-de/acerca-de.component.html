@@ -4,13 +4,12 @@
           type="button"
           class="btn btn-outline-light"
           routerLink="/editacercade/1"
-          *ngIf="isLogged"
-        >
+          *ngIf="isLogged">
           Editar persona
         </button>
     
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="{{persona.img}}" class="img-fluid" id="FotoPerfil">
+        <img src={{persona.img}} class="img-fluid" id="FotoPerfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id="Nombre"> {{persona.nombre}} {{persona.apellido}}</p>
