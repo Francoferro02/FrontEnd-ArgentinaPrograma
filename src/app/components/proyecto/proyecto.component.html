@@ -1,16 +1,42 @@
 <div class="row">
   <h1>Proyectos Realizados</h1>
+  <div class="col-lg-2">
+    <button
+      type="button"
+      class="btn btn-outline-light"
+      routerLink="/nuevoproyect"
+      *ngIf="isLogged"
+    >
+      Agregar Proyecto
+    </button>
   <div class="contenedor">
-    <div class="col-sm-12 col-md-7 col-lg-7 seccion1">
-      <h1>Argentina Programa - Portfolio Web</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi explicabo nostrum neque amet reiciendis aperiam ab facilis animi quisquam non aspernatur sint ratione commodi incidunt adipisci, vitae, placeat officia! Perspiciatis!
-      </p>
+    <div class="col lg 1">
+      <div class="col-lg-11">
+        <table class="table">
+          <tbody>
+            <tr *ngFor="let proyect of proyecto">
+              <td>
+                <h4>
+                  {{ proyect.nombre }}
+                </h4>
+              </td>
+              <td>
+                {{ proyect.descripcion }}
+              </td>
+              <td>
+                {{ proyect.img }}
+              </td>
+              <td *ngIf="isLogged">
+                <button class="btn btn-outline-light" routerLink="/editproyect/{{ proyect.id }}">
+                  <i class="bi bi-pencil-square"></i>EDITAR </button>
+              </td>
+              <td *ngIf="isLogged">
+                <button class="btn btn-danger" (click)="delete(proyect.id)">
+                  <i class="bi bi-trash"></i> BORRAR</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 seccion2">
-        <section>
-            <img src="../../../assets/SzwgE5X - Imgur.png" class="img-fluid img-proyecto">
-        </section>
-    </div>
-  </div>
 </div>
