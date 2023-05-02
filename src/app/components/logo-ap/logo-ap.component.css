@@ -40,12 +40,14 @@ button {
         flex-direction: column;
       }
       .redes{
-        display: flex;
-        flex-direction: column;
+        margin-right: 0px;
+        display: block;
+        flex-direction: revert;
         align-items: center;
       }
       .redes img{
-        margin:0.2em;
+        margin-right: -1.5em;
+        margin-top: -18px;
       }
-  }
+  } 
   

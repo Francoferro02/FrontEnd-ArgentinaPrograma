@@ -9,15 +9,15 @@ div{
 @media (min-width : 576px){
     #Nombre{
         font-weight: bold;
-        margin-top: 85%;
-        margin-left: -20px;
+        margin-top: 80%;
+        margin-left: 14px;
     }
 }
 @media (max-width :575px){
     #Nombre{
         font-weight: bold;
-        margin-top: 200px;
-        margin-left: 38%;
+        margin-top: 138px;
+        margin-left: 23%;
     }
 }
 /*Etiqueta de estudios*/
@@ -31,22 +31,23 @@ div{
 @media (max-width :575px){
     #Estudio{
         font-weight: bold;
-        margin-top: -2%;
-        margin-left: 36.5%;
+        margin-top: -6%;
+        margin-left: 19.5%;
     }
 }
 /*Etiqueta de AcercaDeMi*/
-@media (min-width : 576px){
+@media (min-width:576px){
     #AcercadeMi{
-        margin-top: -7%;
-        margin-left: 30%;
+        margin-top: -14%;
+        margin-left: -20%;
         text-decoration: underline; 
     }
 }
 @media (max-width :575px){
     #AcercadeMi{
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: -6%;
+        margin-left: -7%;
+        text-decoration: underline; 
     }
 } 
 /*Etiqueta de historia*/
@@ -60,7 +61,7 @@ div{
     #Historia{
         text-align: justify;
         font-size: x-large;
-        margin-right: -400px;
+        margin-left: -62px;
       }
 }
 
@@ -70,8 +71,8 @@ div{
         position: absolute;
         width: 10%;
         border-style:double;
-        left: 280px;
-        top: 660px;
+        left: 312px;
+        top: 685px;
     }
 }
     @media (max-width: 575px){
@@ -80,7 +81,7 @@ div{
              width: 30%; 
              border-style:double;
              left: 35%;
-             top: 890px;
+             top: 445px;
         }
     }
 

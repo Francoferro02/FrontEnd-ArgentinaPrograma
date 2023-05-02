@@ -1,6 +1,7 @@
 div{
     background: #161614;
     color: aliceblue;
+    text-decoration: underline; 
 }
 table.table{
     color: aliceblue;
@@ -42,8 +43,9 @@ button {
 @media(min-width : 576px){
     .row{
         background-color: #161614;
-        padding-left: 500px;
+        padding-left: 42px;
         padding-bottom: 30px;
+        padding-top: 1px;
     }
     #EXP
     {

@@ -1,7 +1,8 @@
 .row{
-    padding: 30px;
+    padding: 13px;
     background-color:#161614 ;  
     color: aliceblue;
+    text-decoration: underline; 
 }
 .contenedor{
     width: auto;
@@ -28,4 +29,22 @@ section img:hover{
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+}
+
+@media(min-width : 576px){
+ .h1{
+    padding: 13px;
+    background-color:#161614 ;  
+    color: aliceblue;
+    text-decoration: underline; 
+ }
+}
+@media(max-width : 575px){
+    .h1{
+        padding: 13px;
+        padding-left: 29px;
+        background-color:#161614 ;  
+        color: aliceblue;
+        text-decoration: underline; 
+     }
 }

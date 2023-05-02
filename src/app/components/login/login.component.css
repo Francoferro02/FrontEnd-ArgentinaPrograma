@@ -1,6 +1,15 @@
 button{
     background-color: #161614;
     border: #161614;
-
-    
+}
+@media(max-width :575px){
+    .section{
+        margin-left: 11px;
+    }
+}
+@media(min-width:576px){
+    .section{
+    margin-left: -313px;
+    margin-right: 170px;
+    }
 }

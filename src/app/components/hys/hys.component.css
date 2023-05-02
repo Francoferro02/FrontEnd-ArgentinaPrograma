@@ -30,32 +30,26 @@ button {
         background-color: #161614;
         padding-left: 20px;
         padding-bottom: 20px;
-    }
-    #EXP
-    {
         text-decoration: underline; 
     }
-    #Datos{
-        font-size:x-large;
+    .circulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 /*Etiqueta de estudios*/
 @media(min-width : 576px){
     .row{
         background-color: #161614;
-        padding-left: 500px;
+        padding-left: 42px;
         padding-bottom: 30px;
-    }
-    #EXP
-    {
         text-decoration: underline; 
+        padding-top: 1px;
     }
-    #Datos{
-        font-size:x-large;
+    .circulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-}
-.circulo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }

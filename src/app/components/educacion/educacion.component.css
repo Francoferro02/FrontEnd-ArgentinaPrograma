@@ -5,6 +5,7 @@
         padding-bottom: 20px;
         font-size: large;
         color: aliceblue;
+        text-decoration: underline; 
     }
     #edu{
         text-decoration: underline;
@@ -18,9 +19,12 @@
 @media(min-width : 576px){
     .row{
         background-color: #161614;
-        padding-left: 500px;
+        padding-left: 39px;
         padding-bottom: 30px;
+        padding-top: 1px;
         color: aliceblue;
+        text-decoration: underline; 
+
     }
     #edu
     {
