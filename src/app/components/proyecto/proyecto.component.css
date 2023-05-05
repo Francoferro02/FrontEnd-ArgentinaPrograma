@@ -1,5 +1,5 @@
 .row{
-    padding: 13px;
+    padding: 32px;
     background-color:#161614 ;  
     color: aliceblue;
     text-decoration: underline; 
@@ -47,4 +47,6 @@ section img:hover{
         color: aliceblue;
         text-decoration: underline; 
      }
+
+
 }

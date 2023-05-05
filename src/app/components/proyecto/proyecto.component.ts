@@ -11,8 +11,7 @@ import { TokenService } from 'src/app/service/token.service';
 export class ProyectoComponent implements OnInit{
  proyecto: Proyect[] = [];
 
- constructor(private proyectoS:ProyectService,private tokenService:TokenService){
- }
+ constructor(private proyectoS:ProyectService,private tokenService:TokenService){}
  isLogged = false;
  
   ngOnInit(): void {

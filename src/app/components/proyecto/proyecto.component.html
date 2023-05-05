@@ -10,32 +10,30 @@
     >
       Agregar Proyecto
     </button>
+    <br>
   <div class="contenedor">
     <div class="col lg 1">
       <div class="col-lg-11">
         <table class="table">
           <tbody>
-            <tr *ngFor="let proyect of proyecto">
+            <tr *ngFor="let Proyect of proyecto">
               <td>
                 <h4>
-                  lalalala
-                  {{ proyect.nombre }}
+                  {{ Proyect.nombre }}
                 </h4>
               </td>
               <td>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum quas, quam nihil ad repellat possimus, porro asperiores quis unde deleniti laborum quaerat a vel officiis voluptatibus! Nihil, optio vel.
-                {{ proyect.descripcion }}
+                {{ Proyect.descripcion }}
               </td>
               <td>
-                lalala
-                {{ proyect.img }}
+                <img src= "../../../assets/proyecto.png" class="img-fluid" id="FotoProyecto">
               </td>
               <td *ngIf="isLogged">
-                <button class="btn btn-outline-light" routerLink="/editproyect/{{ proyect.id }}">
+                <button class="btn btn-outline-light" routerLink="/editproyect/{{ Proyect.id }}">
                   <i class="bi bi-pencil-square"></i>EDITAR </button>
               </td>
               <td *ngIf="isLogged">
-                <button class="btn btn-danger" (click)="delete(proyect.id)">
+                <button class="btn btn-danger" (click)="delete(Proyect.id)">
                   <i class="bi bi-trash"></i> BORRAR</button>
               </td>
             </tr>

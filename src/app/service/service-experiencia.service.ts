@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environments';
   providedIn: 'root'
 })
 export class ServiceExperienciaService {
-  expURL= environment.URL + '/explab/'
+  expURL='https://backendfranco.onrender.com/explab/'
 
   constructor(private httpCliente:HttpClient) { }
 

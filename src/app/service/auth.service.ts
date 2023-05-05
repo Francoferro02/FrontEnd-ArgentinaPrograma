@@ -10,14 +10,14 @@ import { environment } from 'src/environments/environments';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = environment.URL + '/auth/';
+  URL = 'https://backendfranco.onrender.com/auth/';
   constructor(private httpClient:HttpClient) { }
 
   public register(nuevoUsuario:RegisterUsuario):Observable<any>{
-    return this.httpClient.post<any>(this.authURL + 'nuevo',RegisterUsuario);
+    return this.httpClient.post<any>(this.URL + 'nuevo',RegisterUsuario);
   }
 
   public login(loginUsuario:LoginUsuario):Observable<JwtDto>{
-    return this.httpClient.post<JwtDto>(this.authURL + 'login',loginUsuario);
+    return this.httpClient.post<JwtDto>(this.URL + 'login',loginUsuario);
   }
 }

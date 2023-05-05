@@ -8,7 +8,7 @@ import { Proyect } from '../model/proyect';
   providedIn: 'root'
 })
 export class ProyectService {
-  URL = environment.URL + '/proyect/';
+  URL = 'https://backendfranco.onrender.com/proyect/';
 
   constructor(private httpClient:HttpClient) { }
 

@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 .redes{
-    margin-right: 0.5em;
+    margin-right: 0px;
 }
 #logoAP{
     width: 150px;
@@ -40,7 +40,6 @@ button {
         flex-direction: column;
       }
       .redes{
-        margin-right: 0px;
         display: block;
         flex-direction: revert;
         align-items: center;
@@ -48,6 +47,9 @@ button {
       .redes img{
         margin-right: -1.5em;
         margin-top: -18px;
+      }
+      #linkedin{
+        margin-right: 0.5em; 
       }
   } 
   

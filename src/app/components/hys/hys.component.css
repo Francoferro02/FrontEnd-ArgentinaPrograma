@@ -42,7 +42,7 @@ button {
 @media(min-width : 576px){
     .row{
         background-color: #161614;
-        padding-left: 42px;
+        padding-left: 36px;
         padding-bottom: 30px;
         text-decoration: underline; 
         padding-top: 1px;

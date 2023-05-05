@@ -1,5 +1,5 @@
 .row{
-    padding: 40px;
+    padding: 45px;
 }
 div{
     background-color: #161614;
@@ -10,7 +10,8 @@ div{
     #Nombre{
         font-weight: bold;
         margin-top: 80%;
-        margin-left: 14px;
+        margin-left: -20px;
+        font-size: medium;
     }
 }
 @media (max-width :575px){
@@ -24,8 +25,9 @@ div{
 @media(min-width : 576px){
     #Estudio{
         font-weight: bold;
-        margin-top: -3%;
-        margin-left: -27px;
+        margin-top: -8%;
+        margin-left: -30px;
+        font-size: medium;
     }
 }
 @media (max-width :575px){
@@ -38,9 +40,10 @@ div{
 /*Etiqueta de AcercaDeMi*/
 @media (min-width:576px){
     #AcercadeMi{
-        margin-top: -14%;
-        margin-left: -20%;
+        margin-top: -13%;
+        margin-left: -27%;
         text-decoration: underline; 
+        font-size: medium;
     }
 }
 @media (max-width :575px){
@@ -61,9 +64,22 @@ div{
     #Historia{
         text-align: justify;
         font-size: x-large;
-        margin-left: -62px;
+        margin: -230px;
+        margin-top: 0px;
+        margin-left: -79px;
+        margin-right: -360px;
       }
 }
+@media(max-width:575px){
+    #EditPersona{
+        width: auto;
+    }
+  }
+  @media(min-width:576px){
+    #EditPersona{
+        width: 27%;
+    }
+  }
 
 /*Foto de perfil*/
  @media (min-width : 576px){
@@ -71,8 +87,9 @@ div{
         position: absolute;
         width: 10%;
         border-style:double;
-        left: 312px;
-        top: 685px;
+        left: 440px;
+        top: 690px;
+        font-size: medium;
     }
 }
     @media (max-width: 575px){
@@ -81,7 +98,8 @@ div{
              width: 30%; 
              border-style:double;
              left: 35%;
-             top: 445px;
+             top: 565px;
         }
     }
+   
 

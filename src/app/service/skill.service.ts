@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environments';
   providedIn: 'root'
 })
 export class SkillService {
-  expURL= environment.URL + '/skill/';
+  expURL= 'https://backendfranco.onrender.com/skill/';
 
 
   constructor(private httpClient:HttpClient) { }
