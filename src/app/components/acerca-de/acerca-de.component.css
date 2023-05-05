@@ -43,7 +43,6 @@ div{
         margin-top: -13%;
         margin-left: -27%;
         text-decoration: underline; 
-        font-size: medium;
     }
 }
 @media (max-width :575px){
@@ -83,11 +82,12 @@ div{
 
 /*Foto de perfil*/
  @media (min-width : 576px){
+
     #FotoPerfil{
         position: absolute;
         width: 10%;
         border-style:double;
-        left: 440px;
+        left: 314px;
         top: 690px;
         font-size: medium;
     }
